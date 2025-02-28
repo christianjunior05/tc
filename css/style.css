@@ -238,6 +238,8 @@ button[type=submit] {
   width: 100%;
   float: left;
   position: relative;
+
+
 }
 .gallery-container .swiper-slide {
   width: 80%;
@@ -896,7 +898,10 @@ button[type=submit] {
   align-items: center;
   justify-content: center;
   align-content: center;
-  background-size: auto 120%;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+
 }
 .slider .slider-container .swiper-slide:after {
   content: "";
@@ -1119,6 +1124,10 @@ button[type=submit] {
   background-color: #26282b;
   position: relative;
   margin-bottom: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 .page-header:after {
   content: "";
@@ -1130,7 +1139,7 @@ button[type=submit] {
   background: #26282b;
   background: -moz-linear-gradient(161deg, #26282b 0%, #26282b 49%, #9f8054 100%);
   background: -webkit-linear-gradient(161deg, #26282b 0%, #26282b 49%, #9f8054 100%);
-  background: linear-gradient(161deg, #26282b 0%, #26282b 49%, #9f8054 100%);
+  background: linear-gradient(161deg, #262b28 0%, #26282b 49%, #9f8054 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#26282b",endColorstr="#9f8054",GradientType=1);
   opacity: 0.65;
 }
@@ -1616,8 +1625,8 @@ button[type=submit] {
   flex-wrap: wrap;
   padding-top: 150px;
   margin-bottom: 100px;
-  background-size: auto 120%;
-  background-position: right;
+  background-size:cover;
+
   background-repeat: no-repeat;
   background-color: #e5e4df;
 }
